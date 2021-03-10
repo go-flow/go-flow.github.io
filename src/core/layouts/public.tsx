@@ -9,7 +9,7 @@ const Public: React.FC<RoutePageProps> = (props: RoutePageProps): React.ReactEle
     return <></>;
   }
   return (
-    <div className="app">
+    <div className="app container-fluid">
       <Loader>
         <route.page {...props} />
       </Loader>
