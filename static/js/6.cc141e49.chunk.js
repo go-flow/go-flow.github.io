@@ -1,0 +1,2 @@
+(this.webpackJsonpwebsite=this.webpackJsonpwebsite||[]).push([[6],{38:function(e,s,t){"use strict";t.r(s);t(0);var i=t(1);s.default=function(){return Object(i.jsx)("div",{className:"animated fadeIn",children:Object(i.jsx)("h1",{children:"Website Home Page"})})}}}]);
+//# sourceMappingURL=6.cc141e49.chunk.js.map
