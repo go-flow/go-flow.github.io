@@ -1,0 +1,28 @@
+.table-outline {
+  border: 1px solid $table-border-color;
+
+  td {
+    vertical-align: middle;
+  }
+}
+
+.table-align-middle {
+  td {
+    vertical-align: middle;
+  }
+}
+
+.table-clear {
+  td {
+    border: 0;
+  }
+}
+
+.table thead th {
+  background-color: $gray-100 !important;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: #95aac9;
+  border-bottom-width: 1px;
+}

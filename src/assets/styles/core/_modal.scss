@@ -1,0 +1,80 @@
+@each $color, $value in $theme-colors {
+  .modal-#{$color} {
+
+    .modal-content {
+      border-color: $value;
+    }
+
+    .modal-header {
+      color: #fff;
+      background-color: $value;
+    }
+  }
+}
+
+
+// modal box customizations
+.modal.fade .modal-dialog-vertical {
+  transform: translateX(-100%);
+}
+
+.modal.show .modal-dialog-vertical {
+  transform: translateX(0);
+}
+
+.modal-dialog-vertical {
+  height: 100%;
+  // max-width: 350px;
+  margin: 0;
+
+  .modal-content {
+    height: inherit;
+    border-width: 0 1px 0 0;
+    border-radius: 0;
+  }
+
+  .modal-body {
+    height: inherit;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+}
+
+.modal-dialog-pull-right {
+  margin-right: 0;
+}
+
+.modal-dialog-pull-left {
+  margin-left: 0;
+}
+
+.modal-dialog-fill-height {
+  min-height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100%;
+
+  .modal-content {
+    height: 100%;
+  }
+}
+
+.modal-content-scroll {
+  overflow-y: scroll;
+}
+
+.modal.fixed-right {
+  padding-right: 0 !important;
+}
+
+.modal.fixed-right.fade .modal-dialog-vertical {
+  transform: translateX(100%);
+}
+
+.modal.fixed-right.show .modal-dialog-vertical {
+  transform: translateX(0);
+}
+
+.modal.fixed-right .modal-dialog-vertical {
+  margin-left: auto;
+}
